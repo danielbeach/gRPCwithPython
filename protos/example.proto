@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package dune;
+
+service Dune{
+
+ rpc isMuadDib(WeFoundHim) returns (DidYouReally) {}
+
+}
+
+message WeFoundHim{
+ string message = 1;
+}
+
+message DidYouReally{
+ string message = 1;
+}
